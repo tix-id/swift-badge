@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source      = { :git => "https://github.com/marketplacer/swift-badge.git", :tag => s.version }
   s.screenshots  = "https://raw.githubusercontent.com/marketplacer/swift-badge/master/graphics/swift_badge_showcase_2.png"
   s.source_files = "BadgeSwift/**/*.swift"
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "11.0"
   s.tvos.deployment_target = "9.0"
   s.swift_versions = ["4.2", "5.0"]
 end
